@@ -1,0 +1,68 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  /* The image used */
+  background-image: url('./../../../assets/img/sfondo.jpg');
+
+  /* Full height */
+  height: 100vh; 
+  margin: 0;
+  padding: 0;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-left-close {
+  width:80px;
+  height: 100vh;
+  border: 1px solid white;
+}
+
+.container-menu-left {
+  display: block;
+  margin-top: 28vh;
+  margin-left: 10px;
+}
+.container-menu-left a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-top: 40px;
+  text-align: center;
+  padding: 20px;
+}
+.text:hover {
+  animation: color-animation 2s linear ;
+  animation-fill-mode: forwards;
+  animation-name: example;
+}
+.container-menu-left a:hover {
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+@keyframes example {
+  0%   {color:white; background-color: rgb(25, 6, 68);
+    transform: translateX(0);}
+
+  100% {background-color: rgb(25,6,68);
+    transform: translateX(30px)}
+}
+
+  footer {
+    height: 200px;
+    background-image: url('./../../../assets/img/sfondo.jpg');
+  }
